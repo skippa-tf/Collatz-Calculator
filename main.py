@@ -7,7 +7,7 @@ def collatz(number):
         n = 3 * number + 1
         print('Step #' + str(x + 1) + ' ' + str(n))
 
-while True:
+while True:     #Makes sure the input is an integer
     try:
         n = int(input('Enter an integer: '))
     except ValueError:
