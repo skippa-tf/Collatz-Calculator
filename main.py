@@ -15,7 +15,7 @@ while True:     #Makes sure the input is an integer
     else:
         break
 
-x = 0
+x = 0   # Used to count the amount of steps taken
 
 while n != 1:
     collatz(n)
